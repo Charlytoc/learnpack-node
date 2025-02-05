@@ -3,7 +3,7 @@ const path = require('path')
 const chalk = require("chalk")
 const shell = require('shelljs')
 const transformer = require.resolve('./utils/babelTransformer')
-const { TestingError } = require('learnpack/plugin')
+const { TestingError } = require('learnpack-root-plugin/plugin')
 const { getPrompts } = require("./utils");
 
 function isUsingPrompt(code) {

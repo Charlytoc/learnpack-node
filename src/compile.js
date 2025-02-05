@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { node } = require('compile-run');
-const { Utils, CompilationError } = require('learnpack/plugin');
+const { Utils, CompilationError } = require('learnpack-root-plugin/plugin');
 const  { getPrompts } = require("./utils");
 
 module.exports = {
